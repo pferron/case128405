@@ -1,0 +1,46 @@
+{
+  "name": "mvsmfemha",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "11.11.3",
+    "@emotion/styled": "11.11.0",
+    "@enterprise-ui/canvas-ui-css": "7.10.2",
+    "@enterprise-ui/canvas-ui-react": "7.10.2",
+    "@enterprise-ui/component-font": "1.2.0",
+    "@enterprise-ui/icons": "1.13.0",
+    "@fortawesome/fontawesome-svg-core": "6.5.1",
+    "@fortawesome/free-regular-svg-icons": "6.5.1",
+    "@fortawesome/free-solid-svg-icons": "6.5.1",
+    "@fortawesome/react-fontawesome": "0.2.0",
+    "@mui/icons-material": "5.15.6",
+    "@mui/material": "5.15.6",
+    "jsonschema": "1.4.1",
+    "mui-datatables": "4.3.0",
+    "mvscommoncomponents": "1.0.30",
+    "praxis-scripts": "20.2.0",
+    "react-mentions": "4.4.10",
+    "react-toastify": "10.0.4",
+    "react-uuid": "2.0.0"
+  },
+  "scripts": {
+    "start": "praxis-scripts start",
+    "build": "praxis-scripts build",
+    "test": "praxis-scripts test",
+    "eject": "praxis-scripts eject",
+    "format": "praxis-scripts format 'src/**/*.{js,jsx}'",
+    "lint": "praxis-scripts lint 'src/**/*.{js,jsx}'",
+    "release": "praxis-scripts release",
+    "inspect": "praxis-scripts inspect",
+    "prepare": "husky install",
+    "test:coverage": "praxis-scripts test --env=jsdom --watchAll --coverage"
+  },
+  "browserslist": {
+    "development": [
+      "defaults"
+    ],
+    "production": [
+      "defaults"
+    ]
+  }
+}
